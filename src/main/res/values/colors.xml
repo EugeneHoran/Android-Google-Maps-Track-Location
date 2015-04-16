@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="trans_black">#50000000</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="dark_grey">#616161</color>
+</resources>

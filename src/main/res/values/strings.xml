@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GoogleMaps</string>
+    <string name="title_activity_maps">Google Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_new">New Run</string>
+    <string name="action_save">Save Run</string>
+    <string name="action_delete">Delete Run</string>
+    <string name="miles"> Miles</string>
+</resources>
