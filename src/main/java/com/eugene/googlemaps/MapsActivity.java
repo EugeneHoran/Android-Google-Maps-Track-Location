@@ -281,11 +281,10 @@ public class MapsActivity extends ActionBarActivity {
                         String provider = locationManager.getBestProvider(criteria, true);
                         Location location = locationManager.getLastKnownLocation(provider);
                         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
-                        if (mMap.getMyLocation().getBearing() != 0) {
+                        if (mMap.getMyLocation().getBearing() != 0) 
                             cameraPosition = new CameraPosition.Builder().target(latLng).bearing(mMap.getMyLocation().getBearing()).zoom(currentZoom).tilt(60).build();
-                        } else {
+                         else 
                             cameraPosition = new CameraPosition.Builder().target(latLng).bearing(mMap.getMyLocation().getBearing()).zoom(currentZoom).tilt(0).build();
-                        }
                         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
                     }
                 }
